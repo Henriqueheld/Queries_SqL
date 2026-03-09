@@ -1,0 +1,4 @@
+-- Active: 1772562554924@@127.0.0.1@3306
+
+
+SELECT AVG(cnpj) FROM frutaria

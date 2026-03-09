@@ -1,0 +1,6 @@
+-- Active: 1772562554924@@127.0.0.1@3306
+
+-- Deixar coluna nome como NOT NULL
+
+ALTER TABLE frutarias ADD COLUMN nome TEXT DEFAULT ""  NOT NULL;
+ALTER TABLE frutarias ADD COLUMN cnpj TEXT DEFAULT 0 NOT NULL;

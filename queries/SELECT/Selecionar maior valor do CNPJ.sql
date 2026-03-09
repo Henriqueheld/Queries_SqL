@@ -1,0 +1,5 @@
+-- Active: 1772562554924@@127.0.0.1@3306
+
+-- SELECT * FROM frutaria ORDER BY "CNPJ" DESC LIMIT 1;
+
+SELECT MAX(cnpj) FROM frutaria;
